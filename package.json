@@ -2,7 +2,7 @@
   "homepage": "https://mantinedev.github.io/mantine-next-http-status-code",
   "name": "mantine-next-http-status-code",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out",
