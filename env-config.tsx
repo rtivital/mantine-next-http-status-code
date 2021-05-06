@@ -15,3 +15,13 @@ module.exports = {
     ? "https://mantinedev.github.io/mantine-next-http-status-code"
     : "",
 };
+
+const CompressionPlugin = require("compression-webpack-plugin");
+
+module.exports = {
+  webpack: function (config) {
+    config.plugins.push(new CompressionPlugin());
+
+    return config;
+  },
+};

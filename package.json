@@ -8,7 +8,8 @@
     "deploy": "gh-pages -d out",
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "publish": "subpath-as-branch --path dist --branch gh-pages"
   },
   "dependencies": {
     "@mantine/core": "^1.0.1",
