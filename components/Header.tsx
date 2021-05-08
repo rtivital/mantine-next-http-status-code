@@ -1,6 +1,6 @@
 import { Title, Text } from "@mantine/core";
 
-export default function Header({ toggleColorScheme }) {
+export default function Header() {
   return (
     <div style={{ marginBottom: 5 }}>
       <title>HTTP Status Codes</title>

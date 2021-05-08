@@ -30,7 +30,7 @@ export default function CodesList() {
     }
 
     return (
-      <div>
+      <div key={group.mask}>
         <div style={{ marginBottom: 20 }}>
           <Text size="lg" weight={700} color={group.color}>
             {group.mask}{" "}
@@ -53,6 +53,7 @@ export default function CodesList() {
         placeholder="Search by code or name"
         value={value}
         onChange={(event) => setValue(event.currentTarget.value)}
+        id="search"
       />
 
       <div>{items}</div>

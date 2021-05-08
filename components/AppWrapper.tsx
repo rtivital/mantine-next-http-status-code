@@ -14,5 +14,5 @@ const useStyles = createUseStyles(
 
 export default function AppWrapper({ children }) {
   useStyles();
-  return <> {children} </>;
+  return <>{children}</>;
 }
