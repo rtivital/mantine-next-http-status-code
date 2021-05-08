@@ -21,9 +21,7 @@ export default function HttpCode({
     <div style={{ marginTop: 7 }}>
       <div style={{ position: "relative", top: "1px" }}>
         <Badge radius="xs" color={color}>
-          <Text size="md" color={color}>
-            {number}
-          </Text>
+          {number}
         </Badge>
       </div>
 
